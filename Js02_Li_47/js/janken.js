@@ -19,7 +19,6 @@ select.onchange = function(){
   selected=this.value;
 }
 
-
 // プレイヤー選択後の処理
 
 $("#gu_btn").on("click", function() {    
