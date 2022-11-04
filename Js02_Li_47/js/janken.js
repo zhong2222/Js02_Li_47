@@ -3,8 +3,8 @@ y_choice = null
 let y_score = 0;//プレイヤーの勝利数
 let c_score = 0;//COMの勝利数
 let n_score = 0;//引き分け数
-let count = 0; //対戦回数
-let selected ="";
+let count = 0; //対戦した回数
+let selected ="";//予定対戦回数
 
 //対戦回数を決める
 let str ="";
@@ -13,11 +13,12 @@ for(let i=3; i<11; i++){
 } 
 $("#select").html(str)
 
-const select = document.getElementById('select');
+const select = document.querySelector('#select');
+selected=select.value;
 select.onchange = function(){
-  // alert(this.value);
   selected=this.value;
 }
+
 
 // プレイヤー選択後の処理
 
