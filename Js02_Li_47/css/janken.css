@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+html{
+    width: 800px;
+    margin: auto;
+}
+body{
+    margin:auto;
+    padding:0;
+    text-align:center;
+    font-size: 32px;
+}
+header{
+    background-color: #fff;
+    /* border-bottom: 1px solid #ccc; */
+    border-bottom: none;
+    text-align: center;
+}
+main{
+    /* border-bottom:1px solid #ccc; */
+    border:none;
+}
+footer{
+    background-color: #fff;
+    /* border-bottom:1px solid #ccc; */
+    border:none;
+    text-align: center;
+}
+p{
+    font-size:150%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    border:none;
+    height:50px;
+}
+ul{
+    padding: 0;
+    /* border-top: 1px solid #000000; */
+    border-top: none;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li.choice{
+    list-style-type:none;
+    /* border: 1px solid #666; */
+    border: none;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li.choice:hover{
+    background: #0066CC;
+    color:#fff;
+}
+/* 追加 */
+
+select{
+    font-size:150%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    border:none;
+    height:50px;
+    background-color: #fff;
+}
+
+li{
+    list-style-type:none;
+    border: none;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+}
+
+img{
+    width: 160px;
+    height: 160px;
+}
+.judgement{
+    text-align: center;
+    height: 340px;
+}
+.judgement>img{
+    width: 320px;
+    height: 320px;
+}
+h1{
+    margin: auto;
+    font-size:200%;
+    text-align: center;
+    border:none;
+}
+.btn{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    display: block;
+    width: 200px;
+    margin: auto;
+    padding: 16px 0;
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#start_btn:hover {
+	opacity: 0.8;
+    background: red
+}
+
+.score {
+    color: red
+}
+.reset_btn {
+    display: inline-block;
+    color: #333333;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dddddd));
+    /* background-color: #dddddd; */
+    border-radius: 48px;
+    border: 1px solid gray;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    width: 20%
+}
